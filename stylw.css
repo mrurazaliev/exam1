@@ -72,7 +72,7 @@ margin-top: 100px;
 {
     display: none;
 }
-.section1 , .sec2 ,.sec3  {
+.section1 , .sec2 ,.sec3 , .sec4, .sec5 {
     padding-left: 150px;
     padding-right: 150px;
     
@@ -176,8 +176,48 @@ padding-top: 100px;
     background-size: cover;
 
 }
-
-
+.cards
+{
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+row-gap: 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: none;
+box-shadow: 0px  0px 8px rgba(148, 147, 147, 0.68);
+border-radius: 8px;
+}
+.divcardss
+{
+    display:flex;
+    gap: 20px;
+}
+.duvakalon
+{
+    display: flex;
+flex-direction: column;
+row-gap: 30px;
+}
+.divblack
+{
+    background-color: black;
+    width: 93%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.sec5
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 100px;
+}
 
 
 @media (max-width: 510px) {
@@ -197,7 +237,7 @@ padding-top: 100px;
     {
         display: block;
     }
-    .section1 , .sec2 , .sec3
+    .section1 , .sec2 , .sec3 , .sec5
 {
     padding-left: 20px  !important;
     padding-right: 20px  !important;
@@ -255,8 +295,9 @@ margin-top: 100px;
 {
     text-align: center;
 }
-.btn3 , {
+.btn3  {
     width: 100% !important;
+   
 }
 .btn3b
 {
@@ -283,5 +324,42 @@ row-gap: 20px;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.sec4
+{
+    display: none;
+}
+.duvakalon
+{
+ 
+}
+.divcardss
+{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cards
+{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+border: none;
+box-shadow: 0px  0px 8px rgba(148, 147, 147, 0.68);
+border-radius: 8px;
+}
+.divblack
+{
+    background-color: black;
+    width: 95%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
 }
 }
